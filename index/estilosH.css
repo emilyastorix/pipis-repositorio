@@ -1,0 +1,81 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('imagenes/hobbieswall.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: rgb(9, 9, 9);
+    padding: 20px;
+}
+
+.titulo h1 {
+    font-size: 36px;
+    color: #333;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 10px 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.infoh {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px;
+    width: 80%;
+    text-align: left;
+}
+
+.infoh ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.infoh li {
+    margin-bottom: 10px;
+}
+
+.infoh h2 {
+    font-size: 24px;
+    color: #444;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 20px 0;
+    text-align: center;
+}
+
+ul li {
+    display: inline;
+    margin-right: 15px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    padding: 10px 20px;
+    border: 2px solid #444;
+    border-radius: 5px;
+    background-color: #444;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+ul li a:hover {
+    background-color: #fff;
+    color: #444;
+}
